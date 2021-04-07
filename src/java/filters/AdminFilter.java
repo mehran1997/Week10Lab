@@ -24,7 +24,7 @@ import models.User;
 
 /**
  *
- * @author HP USER
+ * @author 842458
  */
 @WebFilter(filterName = "AdminFilter", urlPatterns = {"/users"}, dispatcherTypes = {DispatcherType.REQUEST})
 public class AdminFilter implements Filter {
